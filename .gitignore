@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+package-lock.json.bak
+
+# Unrelated projects that happen to live in this directory
+SOSP/
+sosp-new-site/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs & output
+*.log
+npm-debug.log*
+audit-report.json
+report.json
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

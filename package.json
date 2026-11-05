@@ -1,0 +1,14 @@
+{
+  "name": "web-auditor",
+  "version": "1.0.0",
+  "description": "Website performance, security & suggestions analyzer",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "web-auditor": "./index.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "puppeteer-core": "^25.3.0"
+  }
+}
